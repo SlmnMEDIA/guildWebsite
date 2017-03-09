@@ -1,0 +1,405 @@
+/*
+	Theme Name: Sewpra's Guild Webpage Design HTML5/CSS3 Layout
+	Date: February 2017
+	Description: Basic guild webpage design built on a responsive framework using HTML5/CSS3
+	Version: 1.0
+	Author: Sewpra
+*/
+
+
+body {
+	/*background-image: url('');*/
+	background-color: #000;
+	color: #FFF; /*#000305; -- color of font for body*/
+	font-size: 87.5%; /* Base font size is 14px */
+	font-family: Arial, 'Lucida Sans Unicode';
+	/*font: bold 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;*/
+	line-height: 1.5;
+	text-align: left;
+}
+
+#borderStroke {
+	border: 1px solid #000;
+	overflow: hidden;
+}
+
+/* Container Border */
+#container {
+	border: 1px solid #1b3a3f;
+	background-color: #161A1D; /*#0D1B26;*/
+	margin: 2% 0;
+	overflow: hidden;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	/*color: #CF5C3F; -- old ugly orange color*/
+	color: #3E9CD0;
+}
+
+a:hover, a:active {
+	/*background-color: #CF5C3F; -- old ugly orange color*/
+	/*background-color: #3E9CD0;*/
+	color: #FFF;
+}
+
+.body {
+	margin: 0 auto;
+	width: 50%;
+	clear: both;
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+
+#video1 {
+	width: 100%;
+	/*margin-bottom: -6px;*/
+	/*margin-bottom: -85px;*/
+	margin-bottom: -36.38%;
+}
+
+#video-header .guildNameAlignment {
+	position: relative;
+		top: 200px;
+		right: 0;
+		left: 0;
+	z-index: 2;
+}
+
+#video-header .guildName {
+	font-family: 'Exo 2', sans-serif;
+	font-style: bold;
+	color: #FFF;
+	font-size: 40px;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.7), 0 0 7px rgba(0, 0, 0, 0.6);
+	text-align: center;
+	margin: 0 auto;
+}
+
+#video-header .enAlignment {
+	position: relative;
+		top: 200px;
+		right: 0;
+		left: -20%;
+	z-index: 2;
+}
+
+#video-header .blackStripText1 {
+	font-family: 'Exo 2', sans-serif;
+	font-style: bold;
+	color: #FFF;
+	font-size: 18px;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.7), 0 0 7px rgba(0, 0, 0, 0.6);
+	text-align: center;
+	margin: auto;
+	line-height: 1.2;
+}
+
+#video-header .tovAlignment {
+	position: relative;
+		top: 133px;
+		right: 0;
+		left: 0;
+	z-index: 2;
+}
+
+#video-header .blackStripText2 {
+	font-family: 'Exo 2', sans-serif;
+	font-style: bold;
+	color: #FFF;
+	font-size: 18px;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.7), 0 0 7px rgba(0, 0, 0, 0.6);
+	text-align: center;
+	margin: auto;
+	line-height: 1.2;
+}
+
+#video-header .nhAlignment {
+	position: relative;
+		top: 66px;
+		right: 0;
+		left: 20%;
+	z-index: 2;
+}
+
+#video-header .blackStripText3 {
+	font-family: 'Exo 2', sans-serif;
+	font-style: bold;
+	color: #FFF;
+	font-size: 18px;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.7), 0 0 7px rgba(0, 0, 0, 0.6);
+	text-align: center;
+	margin: auto;
+	line-height: 1.2;
+}
+
+#video-header .blackStrip {
+	width: 100%;
+	height: 78px;
+	background-color: #000; opacity: 0.33;
+	position: relative;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.mainHeader nav {
+	/*background: url(gradients/gradient_thead.gif) repeat-x top left;*/
+	background: url(../images/gradient1.gif) repeat-x top left;
+	height: 30px;
+	/*border: 1px solid #000;*/
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 -40px;
+}
+
+.mainHeader nav ul li {
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	float: left;
+	display: inline;
+	border-right: 1px solid #000;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	/*padding: 6px 25px;*/
+	padding: 6px 15px 6px 15px;
+	height: 18px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #3E9CD0;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.mainContent {
+	line-height: 20px; /*line-height: 25px;*/
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* overflow: hidden;   messed up sidebars*/
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topContent {
+	background-color: #0d1b24; /*changed from #FFF -- This is "First Post" Square*/
+	border: 1px solid #000;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	padding: 1% 3%;
+	margin: 2% 2% 2% 1%;
+	/*margin-top: 2%;
+	margin-left: 1%;*/
+}
+
+.topContent h2 {
+	color: #7cbcdf;/* #3E9CD0 */
+}
+
+.topContent p {
+	text-indent: 25px;
+}
+
+.bottomContent {
+	background-color: #0d1b24; /*changed from #FFF -- This is "Second Post" Square*/
+	border: 1px solid #000;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	padding: 1% 3%;
+	margin: 2% 2% 2% 1%;
+	/*margin-top: 2%;
+	margin-left: 1%;*/
+}
+
+.bottomContent h2 {
+	color: #7cbcdf;/* #3E9CD0 */
+}
+
+.bottomContent p.para1, .para2, .para3 {
+	text-indent: 25px;
+}
+
+.bottomContent p.schedule{
+	margin-left: 25px;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+
+.top-sidebar {
+	width: 23%;
+	float: left;
+	background-color: #0d1b24; /*changed from #FFF -- This is "Recruiting" Square*/
+	border: 1px solid #000;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	/*margin: 14px 0 2% 3%;*/
+	margin: 13px 0 0 0;
+	padding: 1% 3%;
+}
+
+.top-sidebar h2 {
+	color: #7cbcdf;
+}
+
+.top-sidebar .appButton {
+	margin: 10% 35% 2% 35%;
+	background: url(../images/gradient1.gif) repeat-x top left;
+	
+	border: 1px solid #000;
+}
+
+.top-sidebar .appButton a:hover {
+	background-color: #3E9CD0;
+	display: inline-block;
+	width: 78%;
+
+}
+
+.top-sidebar .button1 {
+	color: #FFF;
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	height: 20px;
+	width: 70px;
+	padding: 7% 2% 5% 20%;
+	display: inline-block;
+}
+
+.middle-sidebar {
+	width: 23%;
+	float: left;
+	background-color: #0d1b24; /*changed from #FFF -- This is "WoWProgress" Square*/
+	border: 1px solid #000;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	margin: 1% 0 2% 0;
+	padding: 1% 3%;
+}
+
+.middle-sidebar h2 {
+	color: #7cbcdf;
+}
+
+
+
+.mainFooter {
+	background: url(../images/gradient1.gif) repeat-x top left;
+	width: 100%;
+	height: 30px;
+	float: left;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.mainFooter p {
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	width: 92%;
+	margin: 7px 0px 0px 15px;
+	color: #FFF;
+	text-align: center;
+}
+
+.mainFooter p a {
+	color: #FFF;
+}
+
+.mainFooter p a:hover {
+	color: #3E9CD0;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+
+	.mainHeader img {
+		width: 100%;
+	}
+
+	.mainHeader nav {
+		height: 160px;
+	}
+
+	.mainHeader nav ul {
+		padding-left: 0;
+	}
+
+	.mainHeader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.topContent {
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+
+	.bottomContent {
+		margin-top: 3%;
+	}
+
+	.top-sidebar, .middle-sidebar {
+		width: 94%;
+		margin: 2% 0 2% 0;
+		padding: 2% 3%;
+	}
+}
+
+
+

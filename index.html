@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Acumen :: Guild Website</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Guild website of Acumen, a Horde guild located on the Zul'jin server."/>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/script.js"></script>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<link rel="stylesheet" href="demo/demo.css">
+	<script src="demo/jquery.jatt.min.js"></script>
+	<link rel="stylesheet" href="css/wowtalents.css">
+ 	<script src="js/wowtalents.js"></script>
+
+ 	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+
+</head>
+
+
+
+<body class="body">
+	<div id="container">
+		<div id="borderStroke">
+
+
+		<header class="mainHeader">
+			<div id="video-header">
+
+				<video id="video1" poster="/images/illidanstill.png" loop="" autoplay="">
+				<source type="video/webm" src="http://media.blizzard.com/wow/legion-6a153ad2/videos/header-illidan.webm"></source>
+				</video>
+
+				<div class="guildNameAlignment">
+					<div class="guildName">ACUMEN</div> <!-- Change this when you feel like it. -->
+				</div>
+
+
+				<div class="enAlignment">
+					<div class="blackStripText1">Emerald Nightmare<br><span style="font-size: 21px; color: #7cbcdf;">7/7</span><br><span style="font-size: 14px;">Mythic</span></div>
+				</div>
+				<div class="tovAlignment">
+					<div class="blackStripText2">Trial of Valor<br><span style="font-size: 21px; color: #7cbcdf;">2/3</span><br><span style="font-size: 14px;">Mythic</span></div>
+				</div>
+				<div class="nhAlignment">
+					<div class="blackStripText3">The Nighthold<br><span style="font-size: 21px; color: #7cbcdf;">3/10</span><br><span style="font-size: 14px;">Mythic</span></div>
+				</div>
+
+				<div class="blackStrip"></div>
+
+			</div>
+
+			<!--
+			<img src="/">
+			-->
+
+			<nav><ul>
+				<li><a href="https://bestguildna.me">Home</a></li>
+				<li><a href="https://bestguildna.me/forum">Forums</a></li>
+				<!--<li><a href="#">Streams</a></li>-->
+				<li><a href="https://www.warcraftlogs.com/guilds/250004" target="_blank">Logs</a></li>
+				<li><a href="https://bestguildna.me/forum/app.php/applicationform">Apply</a></li>
+				<!--<li><a href="#">Sales</a></li>-->
+			</ul></nav>
+		</header>
+
+		<div class="mainContent">
+			<div class="content">
+
+
+				<article class="topContent">
+					<header>
+						<h2 title="First Post">About Us</h2>
+					</header>
+
+					<footer>
+						<!--
+						<p class="post-info">Posted on date...</p>
+						-->
+					</footer>
+
+					<content>
+						<!--
+						<p>&ltAcumen&gt is a recently formed guild consisting of several friends who wanted a more relaxed schedule and raid environment while still completing progression in a timely manner. Most of us have done hardcore raiding, achieving top 30 US kills in the past, but now have real lives to attend to. We are looking for like-minded players that want to surround themselves with levelheaded people in order to clear all the content there is to offer while it is still current.</p>
+						-->
+
+						<p style="font-size: 14px; color: #7cbcdf; font-weight:bold; font-style:italic;">
+  						&ltAcumen&gt
+  
+						  <span style="font-size: 14px; color: #FFF; font-weight: normal; font-style: normal;">is a recently formed guild located on the Zul'jin server. We consist of several friends who wanted a more relaxed schedule and raid environment while still completing progression in a timely manner. Most of us have done hardcore raiding, achieving top 30 US kills in the past, but now have real lives to attend to. We are looking for like-minded players that want to surround themselves with levelheaded people in order to clear all the content there is to offer while it is still current.</span>
+						  
+						</p>
+
+						<p>If you think you would be a good fit, we encourage you to apply regardless of our current recruitment needs. All exceptional applicants will be considered so long as you have a relaxed attitude and are enjoyable to raid with. We hope to hear from you soon!</p>
+					</content>
+				</article>
+				<article class="bottomContent">
+					<header>
+						<h2 title="Second Post">Raiding Information</h2>
+					</header>
+
+					<footer>
+						<!--
+						<p class="post-info">Posted on date...</p>
+						-->
+					</footer>
+
+					<content>
+
+						<p>Our current schedule is:</p>
+						<p class="schedule">Tuesday: 8:00 p.m. - 12:00 a.m. (EST)
+							<br>Wednesday: 8:00 p.m. - 12:00 a.m. (EST)
+							<br>Thursday: 8:00 p.m. - 12:00 a.m. (EST)
+						</p>
+
+						<p class="para1">All loot is distributed via loot council, which consists of four officers and one random rotating raider that changes on a weekly basis.</p>
+						<p class="para2">The trial period is only two weeks as we feel that is enough time for us to see if we are a good fit for each other. During the trial period, we expect a minimum of 90% attendance so we can better evaluate you in a raid environment.</P>
+						<p class="para3">If you have any inquiries, contact an officer in-game or leave a post on our forums. We hope to hear from you soon!</p>
+					</content>
+				</article>
+
+			</div>
+		</div>
+
+
+
+		<aside class="top-sidebar">
+			<article>
+				<h2>Currently Recruiting:</h2>
+				<!--
+				<p>Insert classes we are recruiting and they're specs here.</p>
+				-->
+
+
+				<div class="recruitTalent">
+					<div id="recruit1">
+						<script>
+						 $(function(){
+
+						  // WoWTalentNeeds initialization
+						  $('#recruit1').wowTalents({
+						   colorBackground: false,
+						   useClassColors: true,
+						   defaultNeed: 'n',
+						   deathknight : ',l,l',
+						   druid : 'm,,,', // empty parameters or characters that don't match anything will be set to the default need
+						   mage  : 'm,m,m',
+						   monk : ',,l',
+						   priest : ',,h',
+						   rogue : '',
+						   shaman : 'h,,',
+						   warlock : 'h,h,h',
+						   warrior : ''
+						  });
+
+						  $('#recruit2').wowTalents({
+						   colorBackground: true,
+						   useClassColors: true,
+						   defaultNeed: 'l',
+						   deathknight: ',h,',
+						   druid : 'm,l,n,h', // balance, guardian, feral, restoration
+						   rogue : 'm,l,m',
+						   warrior : ',n,m'
+						  });
+
+						  // Just another tooltip settings (http://github.com/Mottie/Jatt)
+						  $.jatt({
+						   direction : 's'
+						  });
+
+						 });
+						</script>
+					</div>
+				</div>
+
+				<!--<p>Add Apply Button Down Here (redirects to /apply which is a form that gets posted to the forums)</p>
+				-->
+				<div class="appButton">
+				<a href="https://bestguildna.me/forum/app.php/applicationform" class="button1">Apply</a>
+				</div>
+			</article>
+		</aside>
+		<aside class="middle-sidebar">
+			<article>
+				<h2>Ranking:</h2>
+				<div align="center">
+				<a href="https://www.wowprogress.com/guild/us/zul-jin/Acumen"><img alt="WoW Guild Rankings" src="https://wowprogress.com/guild_img/114066/out/type.site" border="0"/></a>
+				</div>
+			</article>
+		</aside>
+
+
+		<footer class="mainFooter">
+			<p>Copyright &copy; 2017  <a href="https://bestguildna.me/" title="Sewpra">sewpra</a></p>
+		</footer>
+
+
+
+
+
+	</div>
+</div>
+</body>
+</html>

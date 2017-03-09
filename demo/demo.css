@@ -1,0 +1,20 @@
+/* Demo (index.html) page styling */
+
+
+/* JATT (Just Another Tooltip) CSS */
+.tooltip {
+ cursor: pointer;
+}
+#tooltip {
+ color: #dddddd;
+ background: #222222;
+ border: 1px solid #333333;
+ padding: 5px;
+ opacity: 0.9;
+ filter: alpha(opacity=90);
+ text-align: center;
+ border-radius: 1em;
+ -moz-border-radius: 1em;
+ -webkit-border-radius: 1em;
+ display: none;
+}
